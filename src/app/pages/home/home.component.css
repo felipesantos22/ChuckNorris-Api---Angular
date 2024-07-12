@@ -1,0 +1,28 @@
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 80px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button {
+  background-color: #000000; /* Cor de fundo padrão */
+  color: #fff; /* Cor do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+  border: none; /* Remove a borda padrão */
+  cursor: pointer; /* Mostra o cursor como ponteiro ao passar o mouse */
+  border-radius: 5px; /* Borda arredondada */
+  transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+}
+
+/* Estilo quando o mouse passa por cima do botão */
+button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}

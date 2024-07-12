@@ -1,0 +1,15 @@
+<div class="container" *ngIf="chuckNorrisJoke">
+  <h1>{{ chuckNorrisJoke.value }}</h1>
+
+  <!-- <img
+    *ngIf="chuckNorrisJoke.icon_url"
+    [src]="chuckNorrisJoke.icon_url"
+    alt="Chuck Norris Icon"
+    style="width: 100px"
+  /> -->
+
+</div>
+
+<div class="btn">  
+  <button (click)="getNewJoke()">New</button>
+</div>
